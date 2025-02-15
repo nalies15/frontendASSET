@@ -3,19 +3,20 @@
     --red: #F93827;
     --white: #fff;
     --mint: #16C47F;
-}
-
-p{
-    color: var(--maroon);
+    --yellow: #FF9D23;
+    --light-yellow: #EDDF13;
+    --black: #000;
+    --light-gray: #6F6A6A;
+    --lightest-gray: #D9D9D9;
 }
 
 button{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+    display: flex !important;
+    align-items: center !important;
+    gap: 5px !important;
     padding: 5px 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .search-btn{
@@ -23,9 +24,29 @@ button{
     color: var(--white);
 }
 
+.add-btn{
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+}
+
+.export-btn{
+    background-color: var(--light-yellow);
+    color: var(--black);
+}
+
+.turnover-btn{
+    background-color: var(--mint);
+    color: var(--white);
+}
+
 .search-input{
     border: 1px solid var(--mint);
-    width: 300px;
+    width: 400px;
     border-radius: 5px;
-    padding: 0 5px;
+    padding: 0 10px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3rem;
 }

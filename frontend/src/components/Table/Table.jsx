@@ -1,10 +1,25 @@
 import React from 'react'
+import './Table.css'
 
-const Table = () => {
+const Table = ({column}) => {
   return (
-    <div>
-      
-    </div>
+    <table>
+      <thead>
+        <tr>
+          {column.map(item=>(
+           <td>{item}</td> 
+          ))}
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
   )
 }
 

@@ -1,0 +1,25 @@
+@import url('../../assets/css/global.css');
+
+.pagination i{
+    color: var(--mint   );
+}
+
+.page{
+    width: 30px !important;
+    height: 30px !important;
+    /* padding: 10px; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current{
+    background-color: var(--mint);
+    color: var(--white);
+}
+
+.next{
+    border: 1px solid var(--mint);
+    color: var(--mint);
+}
