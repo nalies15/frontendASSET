@@ -7,7 +7,7 @@ const HomePage = () => {
     const tableHeader = ['Validation', 'Department', 'Designation','Device type','Model','Computer Name',''];
     
   return (
-    <div className='container d-flex flex-column gap-3'>
+    <div className='w-75 m-auto d-flex flex-column gap-3'>
       <h1>Welcome!</h1>
 
       {/* search button, add new button, export button */}
