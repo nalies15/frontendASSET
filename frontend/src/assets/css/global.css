@@ -1,0 +1,31 @@
+:root{
+    --maroon: #94152B;
+    --red: #F93827;
+    --white: #fff;
+    --mint: #16C47F;
+}
+
+p{
+    color: var(--maroon);
+}
+
+button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-btn{
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.search-input{
+    border: 1px solid var(--mint);
+    width: 300px;
+    border-radius: 5px;
+    padding: 0 5px;
+}
