@@ -4,7 +4,8 @@ import style from './Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <nav className='d-flex justify-content-between pt-4 w-75 m-auto'>
+    <nav className='d-flex justify-content-between pt-4 w-75 m-auto mb-4'> 
+
         {/* logo */}
         <img src={logo} alt="AllDay Logo" />
 

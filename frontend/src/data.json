@@ -1,5 +1,13 @@
 [
     {
+        "validation":"Marcaida Aries",
+        "department":"Operations",
+        "designation":"Planning and Inventions",
+        "device type":"Laptop",
+        "model":"ROG Strix G512LU",
+        "computer name":"APL-FSU-OPSL012"
+    },
+    {
         "validation":"validation",
         "department":"department",
         "designation":"designation",

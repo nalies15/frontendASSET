@@ -7,12 +7,12 @@ const HomePage = () => {
     const tableHeader = ['Validation', 'Department', 'Designation','Device type','Model','Computer Name',''];
   return (
     <div className='w-75 m-auto d-flex flex-column gap-3'>
-      <h1>Welcome!</h1>
+      {/* h1>Welcome!</h1> */}
 
       {/* search button, add new button, export button */}
       <div className="d-flex align-items-center justify-content-between">
         {/* search */}
-        <div className='d-flex gap-2'>
+        <div className='d-flex gap-3'>
           <input type="text" name="" id="" className='search-input' placeholder='Search'/>
           <button className='search-btn btn'>
             <i class="fa-solid fa-magnifying-glass"></i>
