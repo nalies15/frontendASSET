@@ -1,23 +1,24 @@
 import React from 'react'
-import './Table.css'
+import styles from './Table.module.css'
+import data from '../../data.json'
 
 const Table = ({column}) => {
+  console.log(data)
   return (
-    <table>
+    <table className={styles.table}>
       <thead>
         <tr>
           {column.map(item=>(
            <td>{item}</td> 
           ))}
-          
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>
-
-          </td>
-        </tr>
+        {data.map(item=>(<tr>
+          {Object.values(item).map(item=>(
+              <td>{item}</td>
+          ))}</tr>
+        ))}
       </tbody>
     </table>
   )

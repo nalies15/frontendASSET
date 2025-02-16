@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Table from '../components/Table/Table'
 import '../assets/css/global.css'
 import Pagination from '../components/Pagination/Pagination';
 
 const HomePage = () => {
     const tableHeader = ['Validation', 'Department', 'Designation','Device type','Model','Computer Name',''];
-    
   return (
     <div className='w-75 m-auto d-flex flex-column gap-3'>
       <h1>Welcome!</h1>

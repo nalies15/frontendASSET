@@ -1,0 +1,16 @@
+@import url('../../assets/css/global.css');
+
+.table{
+    margin-top: 20px;
+    table-layout: fixed;
+}
+
+.table thead td{
+    color: var(--light-gray);
+}
+
+.table td{
+    padding: 20px 0;
+    border-bottom: 1px solid var(--lightest-gray);
+    text-align: center;
+}

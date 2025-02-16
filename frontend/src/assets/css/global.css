@@ -17,6 +17,7 @@ button{
     padding: 5px 10px;
     border: none;
     border-radius: 20px;
+    font-size: 2rem;
 }
 
 .search-btn{
