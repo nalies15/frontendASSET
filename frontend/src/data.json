@@ -8,35 +8,43 @@
         "computer name":"APL-FSU-OPSL012"
     },
     {
-        "validation":"validation",
-        "department":"department",
-        "designation":"designation",
-        "device type":"device type",
-        "model":"model",
-        "computer name":"computer name"
+        "validation":"Eraldo Ma Gabcrele",
+        "department":"Operations",
+        "designation":"Operations",
+        "device type":"Laptop",
+        "model":"ROG Strix G512LU",
+        "computer name":"APL-AHC-OPSL006"
     },
     {
-        "validation":"validation",
-        "department":"department",
-        "designation":"designation",
-        "device type":"device type",
-        "model":"model",
-        "computer name":"computer name"
+        "validation":"Obosa Jasmin",
+        "department":"Accounting",
+        "designation":"Finance",
+        "device type":"Laptop",
+        "model":"Aspire A514-54G",
+        "computer name":"HOF-AHC-ACCL057"
     },
     {
-        "validation":"validation",
-        "department":"department",
-        "designation":"designation",
-        "device type":"device type",
-        "model":"model",
-        "computer name":"computer name"
+        "validation":"Terrado Jonnalyn ",
+        "department":"Accounting",
+        "designation":"Finance",
+        "device type":"Laptop",
+        "model":"Latitude 5400",
+        "computer name":"HOF-AHC-ACCL58"
     },
     {
-        "validation":"validation",
-        "department":"department",
-        "designation":"designation",
-        "device type":"device type",
-        "model":"model",
-        "computer name":"computer name"
+        "validation":"Jarales Cheryl",
+        "department":"Human Resource",
+        "designation":"Training",
+        "device type":"Laptop",
+        "model":"GF63 Thin 11UC",
+        "computer name":"HOF-AHC-HRDL013"
+    },
+    {
+        "validation":"Bacasno Genrev Paul",
+        "department":"Operations",
+        "designation":"Operations",
+        "device type":"Laptop",
+        "model":"LENOVO 20V9",
+        "computer name":"HOF-TVS-OPSL003"
     }
 ]

@@ -3,6 +3,7 @@ import Table from '../components/Table/Table'
 import '../assets/css/global.css'
 import Pagination from '../components/Pagination/Pagination';
 
+
 const HomePage = () => {
     const tableHeader = ['Validation', 'Department', 'Designation','Device type','Model','Computer Name',''];
   return (
@@ -16,7 +17,6 @@ const HomePage = () => {
           <input type="text" name="" id="" className='search-input' placeholder='Search'/>
           <button className='search-btn btn'>
             <i class="fa-solid fa-magnifying-glass"></i>
-            Search
           </button>
         </div>
         <div className="buttons d-flex gap-2">

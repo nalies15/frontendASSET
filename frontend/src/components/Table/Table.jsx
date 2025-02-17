@@ -25,7 +25,6 @@ const Table = ({ column }) => {
             <td>
               <button className="btn btn-sm border" style={{backgroundColor:'white', color: 'black'}}>
                 <ThreeDots />
-              
               </button> {/* Add Action button */} 
             </td>
           </tr>
