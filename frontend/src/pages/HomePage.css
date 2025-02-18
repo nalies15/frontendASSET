@@ -1,37 +1,59 @@
+/* Search container for layout */
 .search-container {
-    position: relative;
-    width: 100%;
-    max-width: 500px; /* Adjust width as needed */
-  }
-  
-  .search-input {
-    width: 100%;
-    padding: 10px 50px 10px 15px; /* Space for icon */
-    border-radius: 30px; /* Rounded corners */
-    border: 1px solid #ccc;
-    font-size: 16px;
-    outline: none;
-  }
-  
-  .search-btn {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    background-color: #900; /* Dark red color like the image */
-    color: white;
-    border: none;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .search-btn i {
-    font-size: 16px;
-  }
-  
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  overflow: hidden; 
+}
+
+/* i*/
+.search-input {
+  flex: 1; 
+  padding: 12px 15px;
+  border: none; 
+  outline: none;
+  font-size: 16px;
+  height: 40px;
+  border-radius: 50px; 
+}
+
+/* Button styling (inside input) */
+.search-btn {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: #F93827; 
+  border: 1px solid #F93827; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+/* Hover effect 
+.search-btn:hover {
+  background: #F93827; /* Change background to red 
+  color: white; /* Change icon color to white 
+} */
+
+/* Hover */
+.search-btn:hover{
+  background: #F93827;
+  color: white;
+}
+
+
+/* Icon styling */
+.search-btn i {
+  font-size: 16px;
+}
+

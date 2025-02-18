@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Table from '../components/Table/Table'
+import "./HomePage.css"
 import '../assets/css/global.css'
 import Pagination from '../components/Pagination/Pagination';
 
@@ -12,13 +13,20 @@ const HomePage = () => {
 
       {/* search button, add new button, export button */}
       <div className="d-flex align-items-center justify-content-between">
+
         {/* search */}
-        <div className='d-flex gap-3'>
-          <input type="text" name="" id="" className='search-input' placeholder='Search'/>
-          <button className='search-btn btn'>
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
+        <div className='search-container'>
+          <input 
+            type="text" 
+            className='search-input'
+            placeholder='Search'
+            />
+            <button className='search-btn'>
+              <i className='fa-solid fa-magnifying-glass'></i>
+            </button>
         </div>
+
+
         <div className="buttons d-flex gap-2">
           {/* add button, export button */}
           <button className='add-btn btn'>
